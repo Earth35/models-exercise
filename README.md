@@ -16,3 +16,6 @@ Creation of models and associations between them which simulate objects on a sim
  - belongs to a specific post,  
  - belongs to a specific user.  
   
+An exercise from The Odin Project:  
+http://www.theodinproject.com/ruby-on-rails/building-with-active-record  
+  
