@@ -1,8 +1,8 @@
-class Post < ActiveRecord::Base
-  validates :title, presence: true, length: { in: 10..100 }
+class Comment < ActiveRecord::Base
   validates :body, presence: true, length: { in: 10..255 }
   validates :user_id, presence: true
+  validates :post_id, presence: true
   
   belongs_to :user
-  has_many :comments
+  belongs_to :post
 end
